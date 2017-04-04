@@ -1,11 +1,12 @@
 Every Hospital in the United States must file a Medicare Cost Report once a year. This data is then provided to the public. It is updated once a quarter.
 
 [Info on the form](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Hospital-2010-form.html)
+
 [Info on the data](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Cost-Reports-by-Fiscal-Year.html)
 
 This project aims to simplify the process of pulling this public data and storing in a database (currently only MySQL)
 
-This is most easily reproducible when in a Python [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+This is most easily reproducible when in a Python [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/), and using [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
     mkvirtualenv cms_cost_reports
     workon cms_cost_reports
